@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MAD</string>
+    <string name="text1">Home</string>
+    <string name="text2">Decline</string>
+    <string name="text3">Accept</string>
+    <string name="text4">ID</string>
+    <string name="text5">Time</string>
+    <string name="text6">Redo the time booking</string>
+    <string name="text7">Home</string>
+    <string name="text8">Edit</string>
+    <string name="text9">Delete</string>
+    <string name="text10">confirm</string>
+</resources>
