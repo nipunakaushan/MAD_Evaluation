@@ -29,14 +29,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.001"
-        app:srcCompat="@drawable/download" />
+        app:srcCompat="@drawable/download1" />
 
     <TextView
-        android:id="@+id/textView105"
+        android:id="@+id/EPPName"
         android:layout_width="238dp"
         android:layout_height="18dp"
         android:layout_marginTop="112dp"
-        android:text="JAYASUNDARA J.M.N.K.B"
+        android:text=""
         android:textColor="#E80C0C"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"

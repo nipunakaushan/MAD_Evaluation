@@ -7,7 +7,7 @@
     tools:context=".Registration">
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/Ename"
         android:layout_width="213dp"
         android:layout_height="31dp"
         android:ems="10"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.401" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/Eemail"
         android:layout_width="213dp"
         android:layout_height="31dp"
         android:ems="10"
@@ -34,22 +34,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.457" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="213dp"
-        android:layout_height="31dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textSize="12sp"
+
+    <Spinner
+        android:id="@+id/genderSpin"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:entries="@array/spinner1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537" />
+        app:layout_constraintVertical_bias="0.541"
+        tools:ignore="MissingConstraints">
+
+    </Spinner>
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/EphNo"
         android:layout_width="213dp"
         android:layout_height="31dp"
         android:ems="10"
@@ -63,7 +65,7 @@
         app:layout_constraintVertical_bias="0.615" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/Eage"
         android:layout_width="213dp"
         android:layout_height="31dp"
         android:ems="10"
@@ -77,7 +79,7 @@
         app:layout_constraintVertical_bias="0.767" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName9"
+        android:id="@+id/Ehelth"
         android:layout_width="213dp"
         android:layout_height="31dp"
         android:ems="10"
@@ -99,17 +101,17 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.546" />
+        app:layout_constraintVertical_bias="0.535" />
 
     <TextView
         android:id="@+id/textView119"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginLeft="44dp"
+        android:layout_width="77dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
         android:text="AGE"
         android:textColor="#F40808"
         android:textSize="12sp"
@@ -119,7 +121,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintVertical_bias="0.756" />
 
     <TextView
         android:id="@+id/textView110"
@@ -204,7 +206,7 @@
         app:srcCompat="@drawable/ii" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/Enic"
         android:layout_width="213dp"
         android:layout_height="31dp"
         android:ems="10"
@@ -218,7 +220,7 @@
         app:layout_constraintVertical_bias="0.69" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/singup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#3F51B5"
@@ -238,7 +240,6 @@
         android:text="Healthy Issuess"
         android:textColor="#EC0808"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName9"
         app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

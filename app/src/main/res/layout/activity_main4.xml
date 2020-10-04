@@ -6,18 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
 
-    <TextView
-        android:id="@+id/textView69"
-        android:layout_width="13dp"
-        android:layout_height="15dp"
-        android:text="72"
-        android:textColor="#E80909"
+    <EditText
+        android:id="@+id/txtweight1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintHorizontal_bias="0.57"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649" />
+        app:layout_constraintVertical_bias="0.676" />
 
     <TextView
         android:id="@+id/textView70"
@@ -34,10 +34,10 @@
         app:layout_constraintVertical_bias="0.344" />
 
     <TextView
-        android:id="@+id/textView71"
+        android:id="@+id/Esnic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="9956645121V"
+        android:text=""
         android:textColor="#EA0606"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,10 +62,10 @@
         app:layout_constraintVertical_bias="0.304" />
 
     <TextView
-        android:id="@+id/textView73"
+        android:id="@+id/Esname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="JAYASUNDARA J.M.N.K.B"
+        android:text=""
         android:textColor="#F10F0F"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -119,11 +119,11 @@
         app:layout_constraintVertical_bias="0.493" />
 
     <TextView
-        android:id="@+id/textView77"
+        android:id="@+id/EPPName"
         android:layout_width="238dp"
         android:layout_height="18dp"
         android:layout_marginTop="84dp"
-        android:text="JAYASUNDARA J.M.N.K.B"
+        android:text=""
         android:textColor="#E80C0C"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -194,15 +194,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.001"
-        app:srcCompat="@drawable/download" />
+        app:srcCompat="@drawable/download1" />
 
     <TextView
-        android:id="@+id/textView82"
+        android:id="@+id/gender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="284dp"
         android:layout_marginRight="284dp"
-        android:text="MALE"
+        android:text=""
         android:textColor="#EC0D0D"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -210,18 +210,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.384" />
 
-    <TextView
-        android:id="@+id/textView83"
+    <EditText
+        android:id="@+id/txtheight1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="156cm"
-        android:textColor="#EF0D0D"
+        android:ems="10"
+        android:inputType="numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.57"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.595" />
+        app:layout_constraintVertical_bias="0.603" />
 
     <TextView
         android:id="@+id/textView84"
@@ -238,10 +238,10 @@
         app:layout_constraintVertical_bias="0.384" />
 
     <TextView
-        android:id="@+id/textView85"
+        android:id="@+id/Esage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="21"
+        android:text=""
         android:textColor="#F30707"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -252,12 +252,12 @@
         app:layout_constraintVertical_bias="0.492" />
 
     <TextView
-        android:id="@+id/textView86"
+        android:id="@+id/EsphNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="248dp"
         android:layout_marginRight="248dp"
-        android:text="0764151562"
+        android:text=""
         android:textColor="#EC1010"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -280,10 +280,10 @@
         app:layout_constraintVertical_bias="0.42" />
 
     <TextView
-        android:id="@+id/textView88"
+        android:id="@+id/Esemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="nipunakaushan@gmail.com"
+        android:text=""
         android:textColor="#F10F0F"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -307,19 +307,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.454" />
 
-    <TextView
-        android:id="@+id/textView90"
+    <EditText
+        android:id="@+id/txtbudget1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="5000"
-        android:textColor="#F10F0F"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintHorizontal_bias="0.57"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
-
+        app:layout_constraintVertical_bias="0.75" />
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"

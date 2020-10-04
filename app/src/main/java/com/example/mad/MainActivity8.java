@@ -1,18 +1,41 @@
 package com.example.mad;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity8 extends AppCompatActivity {
+    TextView pname;
+
+    register Register;
+    DatabaseReference ref1;
+    public void clearControls(){
+
+        pname.setText("");
+
+    }
     private Button button11;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main8);
+        pname=findViewById(R.id.EPPName);
+
+
+
+        Register = new register();
 
         button11 = (Button) findViewById(R.id.button11);
         button11.setOnClickListener(new View.OnClickListener(){@Override
@@ -20,6 +43,33 @@ public class MainActivity8 extends AppCompatActivity {
             openActivity8();
         }
         });
+
+
+        ////////////
+        DatabaseReference readRefR = FirebaseDatabase.getInstance().getReference().child("register/register");
+        readRefR.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                if(dataSnapshot.hasChildren()){
+
+
+                    pname.setText(dataSnapshot.child("name").getValue().toString());
+
+                }
+                else
+                    Toast.makeText(getApplicationContext(), "No source to display", Toast.LENGTH_SHORT).show();
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+
+
+
+        ////////////
     }
     public void openActivity8(){
         Intent intent = new Intent(this,MainActivity.class);

@@ -6,8 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity7">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="403dp"
+        android:layout_height="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383"
+        app:srcCompat="@drawable/nutrition" />
+
     <TextView
-        android:id="@+id/textView102"
+        android:id="@+id/T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DURATION"
+        android:textColor="#090909"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <TextView
+        android:id="@+id/Tplan"
+        android:layout_width="385dp"
+        android:layout_height="59dp"
+        android:text="	"
+        android:textColor="#807979"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
+
+    <TextView
+        android:id="@+id/Twater"
         android:layout_width="172dp"
         android:layout_height="24dp"
         android:text="5 leaters"
@@ -18,49 +58,49 @@
         app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.743" />
+        app:layout_constraintVertical_bias="0.765" />
 
     <TextView
-        android:id="@+id/textView103"
-        android:layout_width="201dp"
-        android:layout_height="57dp"
-        android:text="nothing......................"
+        android:id="@+id/Temail"
+        android:layout_width="208dp"
+        android:layout_height="37dp"
+        android:text="nothing@gmail.com"
         android:textColor="#807979"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintVertical_bias="0.87" />
 
     <TextView
         android:id="@+id/textView96"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ENTER THE DAILY WATER LEVEL"
+        android:text="YOUR DAILY WATER LEVEL"
         android:textColor="#101010"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.699" />
+        app:layout_constraintVertical_bias="0.723" />
 
     <TextView
-        android:id="@+id/textView97"
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DURATION"
+        android:text="YOUR HEALTH ISSUES"
         android:textColor="#090909"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627" />
+        app:layout_constraintVertical_bias="0.521" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -90,7 +130,7 @@
         android:id="@+id/textView98"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="YOUR NUTRITION PLAN"
+        android:text="SAMPLE NUTRITION PLAN"
         android:textColor="#100F0F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,18 +138,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.297" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.099"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447"
-        app:srcCompat="@drawable/nutrition" />
 
     <TextView
         android:id="@+id/textView99"
@@ -128,32 +156,18 @@
         android:id="@+id/textView100"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ENTER THE DAILY WATER LEVEL"
+        android:text=" YOUR EMAIL ADDRESS"
         android:textColor="#1C1B1B"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.801" />
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="84dp"
-        android:layout_height="34dp"
-        android:background="#F32140"
-        android:text="DOWNLOAD"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.886"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515" />
+        app:layout_constraintVertical_bias="0.809" />
 
     <TextView
-        android:id="@+id/textView101"
+        android:id="@+id/Tdu"
         android:layout_width="172dp"
         android:layout_height="24dp"
         android:text="3 months"
@@ -161,9 +175,9 @@
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.673" />
+        app:layout_constraintVertical_bias="0.683" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

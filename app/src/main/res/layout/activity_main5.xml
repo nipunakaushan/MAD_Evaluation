@@ -30,14 +30,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.001"
-        app:srcCompat="@drawable/download" />
+        app:srcCompat="@drawable/download1" />
 
     <TextView
-        android:id="@+id/textView42"
+        android:id="@+id/EPPName"
         android:layout_width="238dp"
         android:layout_height="18dp"
         android:layout_marginTop="84dp"
-        android:text="JAYASUNDARA J.M.N.K.B"
+        android:text=""
         android:textColor="#E80C0C"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,7 +91,7 @@
         android:id="@+id/textView51"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" PWER FITNESS"
+        android:text=" POWER FITNESS"
         android:textColor="#E80D0D"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -119,7 +119,7 @@
         android:id="@+id/textView55"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CONTACT NO:03755642536"
+        android:text="CONTACT NO:011 5687787"
         android:textColor="#9C27B0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
