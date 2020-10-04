@@ -20,7 +20,7 @@ public class viewCard extends AppCompatActivity {
     Button btn;
     DatabaseReference ref;
     Card cd;
-    //Ruwan Sirimanna
+    //Ruwan Sirimanna SLIIT
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
