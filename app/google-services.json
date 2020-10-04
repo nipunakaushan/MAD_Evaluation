@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "12197070374",
+    "firebase_url": "https://gyms-4115d.firebaseio.com",
+    "project_id": "gyms-4115d",
+    "storage_bucket": "gyms-4115d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12197070374:android:2cba20531dd66cdfdc48e7",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12197070374-98rllh35r42j922nm2l94ghsc7fttnke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMwN55k_r-fln_-lDn7vtq7znzZtKIqfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12197070374-98rllh35r42j922nm2l94ghsc7fttnke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
